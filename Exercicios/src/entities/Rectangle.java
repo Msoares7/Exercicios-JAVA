@@ -2,19 +2,19 @@ package entities;
 
 public class Rectangle {
 
-public double Width;
-public double Height;
+public double altura;
+public double largura;
 
 public double area() {
-	return Width * Height;
+	return altura * largura;
 }
 
 public double Perimeter() {
-return 2*( Width + Height);
+return 2*( altura + largura);
 }
 	
 public double Diagonal() {
-return Math.sqrt(Math.pow(Width, 2) + Math.pow(Height, 2));
+return Math.sqrt(Math.pow(altura, 2) + Math.pow(largura, 2));
 }
 
 public String toString() {
